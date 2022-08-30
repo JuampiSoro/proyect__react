@@ -1,4 +1,5 @@
 import Foto from '../assets/logo.png';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
@@ -8,7 +9,11 @@ const NavBar = () => {
                 <li className='nav__li'><a href='#'>Home</a></li>
                 <li className='nav__li'><a href='#'>Productos</a></li>
                 <li className='nav__li'><a href='https://www.linkedin.com/in/juampi-soro/'>Contacto</a></li>
+                <li>
+                    <CartWidget />
+                </li>
             </ul>
+
         </nav>
     )
 }
