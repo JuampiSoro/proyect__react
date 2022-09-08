@@ -59,5 +59,73 @@ a {
 /* PRODUCTS CSS */
 
 .products__container {
-    padding: 3em 15em;
+    margin-top: 3em;
+    padding: 0em 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2em;
+    row-gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.item__container {
+    margin: 0 auto;
+    width: 20em;
+    animation: opacity 1000ms;
+    border-radius: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 38px 13px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 38px 13px rgba(0, 0, 0, 0.05);
+}
+
+.item__title {
+    margin-top: 1em;
+    color: #54BAB9;
+}
+
+.item__detail {
+    text-decoration: underline;
+}
+
+.item__detail:hover {
+    color: #54BAB9;
+    transition: 200ms;
+}
+
+
+.item__price__btn__container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__price {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.item__btn {
+    width: 10em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    background-color: #54BAB9;
+    cursor: pointer;
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+
 }

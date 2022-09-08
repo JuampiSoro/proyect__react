@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "title": "Prueba",
+        "price": 300,
+        "pictureUrl": 0
+    },
+    {
+        "id": 1,
+        "title": "Prueba2",
+        "price": 200,
+        "pictureUrl": 0
+    },
+    {
+        "id": 2,
+        "title": "Prueba",
+        "price": 300,
+        "pictureUrl": 0
+    },
+    {
+        "id": 3,
+        "title": "Prueba2",
+        "price": 200,
+        "pictureUrl": 0
+    }
+]
