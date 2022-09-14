@@ -93,6 +93,7 @@ a {
 .item__detail:hover {
     color: #54BAB9;
     transition: 200ms;
+    cursor: pointer;
 }
 
 
@@ -118,6 +119,18 @@ a {
     cursor: pointer;
 }
 
+.item__detail__container {
+    margin-top: 1em;
+    background-color: #54BAB9;
+    padding: 1em;
+    border-radius: 2em;
+    display: inline-block;
+}
+
+.item__detail__img {
+    width: 10em;
+    border-radius: 1em;
+}
 
 @keyframes opacity {
     0% {

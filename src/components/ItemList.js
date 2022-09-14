@@ -14,7 +14,7 @@ const ItemList = () => {
     return (
         <>
             {
-                item.map((each, key) => <Item id={each.id} title={each.title} price={each.price} pictureUrl={each.pictureUrl} key={'item' + key} />)
+                item.map((each, key) => <Item id={each.id} title={each.title} price={each.price} pictureUrl={each.pictureUrl} key={'item' + key} info={each.info} />)
             }
         </>
 

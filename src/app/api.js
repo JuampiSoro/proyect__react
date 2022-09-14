@@ -9,3 +9,13 @@ export const getProductos = () => {
 
     return task
 };
+
+export const getItem = () => {
+    const task = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(productos[0])
+        }, 2000)
+    })
+
+    return task
+};
