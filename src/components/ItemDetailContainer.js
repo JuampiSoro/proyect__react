@@ -2,18 +2,20 @@ import ItemDetail from "./ItemDetail"
 import { useState, useEffect } from "react"
 import { getItem } from "../app/api"
 
-const ItemDetailContainer = () => {
+const ItemDetailContainer = ({ id }) => {
     let [details, setDetails] = useState([]);
 
     useEffect(() => {
-        getItem().then((data) => {
+        getItem(id).then((data) => {
             setDetails(data)
         });
 
     }, []);
 
     return (
-        <ItemDetail detalle="Detalle de producto" title={details.title} info={details.info} pictureUrl={details.pictureUrl} />
+        <div className="item__detail__container__page">
+            <ItemDetail detalle="Detalle de producto" title={details.title} info={details.info} pictureUrl={details.pictureUrl} />
+        </div>
     )
 }
 

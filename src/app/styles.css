@@ -88,6 +88,7 @@ a {
 
 .item__detail {
     text-decoration: underline;
+    color: black !important;
 }
 
 .item__detail:hover {
@@ -119,17 +120,39 @@ a {
     cursor: pointer;
 }
 
+.item__detail__container__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .item__detail__container {
-    margin-top: 1em;
+    margin-top: 3em;
+    width: 45em;
     background-color: #54BAB9;
     padding: 1em;
     border-radius: 2em;
-    display: inline-block;
+    display: flex;
 }
 
 .item__detail__img {
-    width: 10em;
+    width: 20em;
+    height: 20em;
     border-radius: 1em;
+}
+
+.item__detail__container__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.item__detail__container__info h5 {
+    font-size: 1.5em;
+}
+
+.item__detail__container__info p {
+    text-align: justify;
 }
 
 @keyframes opacity {

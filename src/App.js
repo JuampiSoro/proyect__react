@@ -1,16 +1,7 @@
-import NavBar from './components/NavBar';
 import './app/styles.css';
-import ItemListContainer from './components/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer';
+import Router from './app/Router';
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <ItemListContainer contenido="Prueba de props" />
-      <ItemDetailContainer />
-    </div>
-  );
-}
+
+const App = () => <Router />
 
 export default App;

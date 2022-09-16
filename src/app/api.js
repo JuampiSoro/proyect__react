@@ -10,10 +10,10 @@ export const getProductos = () => {
     return task
 };
 
-export const getItem = () => {
+export const getItem = (id) => {
     const task = new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(productos[0])
+            resolve(productos[id])
         }, 2000)
     })
 
