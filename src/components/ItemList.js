@@ -1,15 +1,24 @@
 import Item from "./Item"
 import { useEffect, useState } from "react";
 import { getProductos } from "../app/api";
+import { useParams } from "react-router-dom";
 
 const ItemList = () => {
     const [item, setItem] = useState([]);
+    const { idCategoria } = useParams();
 
     useEffect(() => {
-        getProductos().then((data) => {
-            setItem(data)
-        });
-    }, []);
+
+        if (idCategoria) {
+            getProductos().then((data) => {
+                setItem(data.filter(each => each.categoria === idCategoria));
+            });
+        } else {
+            getProductos().then((data) => {
+                setItem(data)
+            });
+        }
+    }, [idCategoria]);
 
     return (
         <>

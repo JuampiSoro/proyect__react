@@ -1,6 +1,6 @@
 import ItemList from './ItemList';
 
-const ItemListContainer = ({ contenido }) => {
+const ItemListContainer = () => {
     return (
 
         <main className="products__container">

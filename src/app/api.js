@@ -19,3 +19,13 @@ export const getItem = (id) => {
 
     return task
 };
+
+export const getCategory = () => {
+    const task = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(productos.categoria === 1);
+        }, 2000)
+    })
+
+    return task
+};
