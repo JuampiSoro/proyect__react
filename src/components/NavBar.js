@@ -12,7 +12,7 @@ const NavBar = () => {
                 <li className='nav__li'><Link to="/categoria/2">Air Force</Link></li>
                 <li className='nav__li'><Link to="/contacto/">Contacto</Link></li>
                 <li>
-                    <CartWidget />
+                    <Link to="/cart/"><CartWidget /></Link>
                 </li>
             </ul>
 

@@ -3,6 +3,7 @@
         "id": 0,
         "title": "Nike Air Max IntrIk",
         "price": 300,
+        "stock": 5,
         "pictureUrl": "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw7c433248/products/NI_DC5421-002/NI_DC5421-002-1.JPG",
         "info": "Las Zapatillas Nike Air Max Intrlk brindan soporte y estabilidad a tus pisadas, para que disfrutes a pleno de cada carrera y mejores tu rendimiento en cada entrenamiento.",
         "categoria": "1"
@@ -11,6 +12,7 @@
         "id": 1,
         "title": "Nike Air Max 90",
         "price": 200,
+        "stock": 5,
         "pictureUrl": "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw25f1bd0a/products/NI_DH4677-200/NI_DH4677-200-1.JPG",
         "info": "Las zapatillas Nike Air MAx Terreascape 90 le dan energía a Air Max original con un adicional de durabilidad y amortiguación, sin agregar volumen. ",
         "categoria": "1"
@@ -19,6 +21,7 @@
         "id": 2,
         "title": "Nike Air Force 1",
         "price": 300,
+        "stock": 5,
         "pictureUrl": "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw42370dbb/products/NI_DO2760-220/NI_DO2760-220-1.JPG",
         "info": "Las Zapatillas Nike Air Force 1 Gore Tex son el calzado diario todoterreno que buscabas. El cuero de la capellada es resistente y cuenta con una membrana GORE-TEX que las protege del agua para mantener tus pies secos durante tu jornada.",
         "categoria": "2"
@@ -27,6 +30,7 @@
         "id": 3,
         "title": "Nike Blazer Mid 77",
         "price": 200,
+        "stock": 5,
         "pictureUrl": "https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw680813b6/products/NI_DH7694-100/NI_DH7694-100-1.JPG",
         "info": "Las zapatillas Nike Blazer Mid 77 son un must vintage de esta temporada que llegaron para rememorar la vieja escuela. Pedida por todos por su apariencia y comodidad, este calzado actualiza un elemento esencial del guardarropa.",
         "categoria": "0"
