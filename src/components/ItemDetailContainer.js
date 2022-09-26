@@ -14,7 +14,7 @@ const ItemDetailContainer = ({ id }) => {
 
     return (
         <div className="item__detail__container__page">
-            <ItemDetail detalle="Detalle de producto" title={details.title} info={details.info} pictureUrl={details.pictureUrl} stock={details.stock} />
+            <ItemDetail detalle="Detalle de producto" data={details} />
         </div>
     )
 }
