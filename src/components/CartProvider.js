@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-const CartContext = React.createContext([]);
+const CartContext = React.createContext();
 
 
 const CartProvider = ({ children }) => {
@@ -15,6 +15,8 @@ const CartProvider = ({ children }) => {
 
     const clearCart = () => setCart([]);
 
+    const totalPrice = () => cart.reduce((prev, act) => prev + act.quantity * act.price, 0);
+
     const isInCart = id => cart.find(product => product.id === id) ? true : false;
 
     const removeProduct = id => setCart(cart.filter(product => product.id !== id));
@@ -24,7 +26,9 @@ const CartProvider = ({ children }) => {
             clearCart,
             isInCart,
             removeProduct,
-            addProduct
+            addProduct,
+            cart,
+            totalPrice
         }}>
             {children}
         </CartContext.Provider>
