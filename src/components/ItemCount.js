@@ -7,14 +7,14 @@ const ItemCount = ({ inicio, stock, onAdd }) => {
 
     return (
         <div>
-            <button onClick={() => {
+            <button className="btn__count" onClick={() => {
                 v === 1 ? console.log("No podes sacar más productos") : setValor(v - 1);
             }}>-</button>
             {v}
-            <button onClick={() => {
+            <button className="btn__count" onClick={() => {
                 v < stock ? setValor(v + 1) : console.log("No hay mas stock!");
             }}>+</button>
-            <button onClick={() => onAdd(v)}>
+            <button className="btn__count" onClick={() => onAdd(v)}>
                 Agregar al carrito
             </button>
         </div>

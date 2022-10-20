@@ -6,11 +6,11 @@ const Item = ({ id, title, price, pictureUrl, info }) => {
 
             <img src={pictureUrl} alt={title} />
             <h2 className="item__title">{title}</h2>
-            <p className="item__detail"><Link to={`/producto/${id}`} style={{ color: 'black' }}>Ver detalle del producto</Link></p>
+            {/* <p className="item__detail"><Link to={`/producto/${id}`} style={{ color: 'black' }}>Ver detalle del producto</Link></p> */}
 
             <div className="item__price__btn__container">
                 <p className="item__price">{price}<span>$</span></p>
-                <button className="item__btn">Agregar al carrito</button>
+                <Link to={`/producto/${id}`}><button className="item__btn">Detalle del producto</button></Link>
             </div>
         </div>
     )
