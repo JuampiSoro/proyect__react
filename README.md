@@ -1,3 +1,7 @@
+# VIDEO
+
+[VIDEO](https://youtu.be/5PaQLyGmiZI)
+
 # ECOMMERCE ZAPATILLAS
 
 Página web de simulación de eCommerce en formato de SPA (Single Web Application). Esta web fue realizada con React y CSS Vanilla.
