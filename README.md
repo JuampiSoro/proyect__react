@@ -1,3 +1,11 @@
+# ECOMMERCE ZAPATILLAS
+
+Página web de simulación de eCommerce en formato de SPA (Single Web Application). Esta web fue realizada con React y CSS Vanilla.
+
+# LIBRERIAS
+
+En esta página web, no se utilizaron librerias externas. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
